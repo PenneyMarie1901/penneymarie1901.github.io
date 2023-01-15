@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #cdcdcd;
+    background-attachment: fixed;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    margin-left: 13rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 44rem;
+    gap: 1rem;
+}
+
+input, select, textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+form button {
+    padding: 17px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(122, 2, 2);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+form button:hover {
+    background-color: rgba(21, 0, 0, 0.8);
+}
+
+a button {
+    width: 44rem;
+    margin-top: 12px;
+    margin-bottom: 2rem;
+    padding: 17px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(0, 35, 213);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+a button:hover {
+    background-color: rgba(9, 0, 87, 0.8);
+}
+.logo {
+    margin-top: 4rem;
+ margin-right: 3rem;
+ margin-bottom: 4rem;
+}
+
+form textarea {
+    resize: none;
+    height: 196px;
+}
+form p {
+    text-align: center;
+}
