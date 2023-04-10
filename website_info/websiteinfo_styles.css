@@ -10,7 +10,8 @@
 body {
     background-image: url("/images/AboutUs_BG.jpg");
     background-repeat: no-repeat;
-    background-size: 300%;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 header {
@@ -71,7 +72,7 @@ header ul li a:hover {
 a .report-button {
     font-family: 'Lexend', sans-serif;
     position: fixed;
-    margin-left: 83rem;
+    margin-left: 83.1rem;
     margin-top: 43rem;
     text-decoration: none;
     color: #fff;
@@ -138,7 +139,7 @@ a .report-button:hover {
 
 .text p {
     font-family: 'Lexend', sans-serif;
-    color: rgb(72, 72, 72);
+    color: azure;
     font-size: 19px;
     line-height: 28px;
     margin-bottom: 45px;

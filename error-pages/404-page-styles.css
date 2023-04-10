@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("/images/bg_error.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+  }
+
+.error-text {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 25%;
+    margin-top: 12.5%;
+    background-color: #00047a;
+    width: 50%;
+    height: 200px;
+    position: fixed;
+    border-radius: 64px;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 76px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons-layout {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 38%;
+    margin-top: 34%;
+    width: 50%;
+    height: 200px;
+    position: fixed;
+    border-radius: 64px;
+}
+
+a .homepage {
+    padding: 2%;
+    border: none;
+    border-radius: 34px;
+    font-weight: bold;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: rgb(255, 50, 50);
+    transition: all 0.3s ease 0s;
+}
+a .homepage:hover {
+    background-color: rgba(131, 0, 0, 0.8);
+}
+
+a .about-us {
+    padding: 2%;
+    border: none;
+    border-radius: 34px;
+    font-weight: bold;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: rgb(255, 50, 50);
+    transition: all 0.3s ease 0s;
+}
+a .about-us:hover {
+    background-color: rgba(131, 0, 0, 0.8);
+ }
+
+.report-button {
+    font-family: "Lexend", sans-serif;
+    position: fixed;
+    margin-left: 84rem;
+    margin-top: 43rem;
+    text-decoration: none;
+    color: #fff;
+    top: 0;
+    left: 0;
+    letter-spacing: none;
+    font-weight: 500px;
+    border: none;
+    border-top-left-radius: 37px;
+    padding: 18px;
+    height: 64px;
+    background-color: #ed0202;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  a .report-button:hover {
+    background-color: rgba(131, 0, 0, 0.8);
+  }
